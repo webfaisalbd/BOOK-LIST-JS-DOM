@@ -38,7 +38,12 @@ function validationIsRight(){
 
 
     bookList.appendChild(newRow);
-    
+    reset();
+     
+}
 
-    
+function reset(){
+    title.value='';
+    author.value='';
+    year.value='';
 }
